@@ -1,0 +1,79 @@
+body{
+	text-align: center;
+	background: url(background.jpg)
+}
+
+html { 
+  background: url(background.jpg) no-repeat center center fixed !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+.first{
+	
+	
+	
+	
+	
+	margin: 0 auto;
+
+}
+.first img{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+
+}
+
+.navbar{
+	margin-top: 30px;
+	width: 100%;
+	background: none !important;
+	border: none !important;
+	
+	
+
+}
+.navbar .navbar-collapse{
+
+
+	color: white !important;
+	text-align: center !important;
+}
+
+.nav{
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+	overflow: hidden;
+
+	
+
+	
+
+}
+.nav li {
+	vertical-align: middle;
+	width: 25%;
+
+	
+	
+}
+.nav li a{
+	font-size: 20px;
+	text-decoration: none !important;
+	color: white !important;
+}
+
+.nav li a:hover{
+	color: gray !important;
+}
+
+.nav li div{
+
+	top: 50%;
+
+}
+
