@@ -13,14 +13,8 @@ html {
   background-size: cover !important;
 }
 
-.first{
-	
-	
-	
-	
-	
+.first{	
 	margin: 0 auto;
-
 }
 .first img{
 	border-radius: 50%;
@@ -99,7 +93,9 @@ nav{
 	
 	background-color: black;
 	width: 40%;
-	height: 425px;
+	
+	height: auto;
+	min-height: 425px;
 	vertical-align: top;
 	
 }
@@ -133,13 +129,13 @@ nav{
 	list-style: none; 
 }
 .aboutImages img{
-	
+	border-radius: 25px;
 	width: 300px;
 	height: 350px;
 }
 .projects{
 	margin-top: 100px;
-	position: relative;
+	
 }
 .projectHeader{
 
@@ -158,4 +154,56 @@ nav{
 
 }
 
+.FabFlix{
+	margin: 0 auto;
+	position: relative;
+	color: white;
+}
+.projects h3{
+	font-size: 30px;
+}
+
+
+
+
+.projectBox{
+	width: 800px;
+	height: 200px;
+	display: inline-block;
+
+
+	background-color: black;
+	border-radius: 25px;
+	top: 50%;
+
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-100%);
+
+
+	
+}
+.projectText{
+	
+	text-align: center;
+}
+
+.fabFlixPhotos{
+	list-style: none;
+	display: inline-block;
+	height: 900px;
+	width: 600px;
+}
+
+.fabFlixPhotos li{
+
+	vertical-align: middle;
+	padding: 10px;
+	list-style: none; 
+}
+.fabFlixPhotos img{
+	
+	width: 600px;
+	height: 425px;
+}
 
