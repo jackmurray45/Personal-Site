@@ -1,6 +1,8 @@
 body{
 	text-align: center;
-	background: url(background.jpg)
+	background: url(background.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 html { 
@@ -76,4 +78,84 @@ html {
 	top: 50%;
 
 }
+
+nav{
+	margin-bottom: 50px;
+}
+
+.about{
+	margin: 0 auto;
+	position: relative;
+	
+
+
+
+}
+.aboutText{
+
+	display: inline-block;
+	border-radius: 25px;
+	color: white;
+	
+	background-color: black;
+	width: 40%;
+	height: 425px;
+	vertical-align: top;
+	
+}
+
+.aboutText h2{
+	text-align: left;
+	font-size: 50px;
+	padding-top: 20px;
+	padding-left: 5%;
+}
+
+.aboutText p{
+	padding: 25px;
+}
+
+.aboutImages{
+	display: inline-block;
+	margin-left: 25px;
+	
+	
+}
+.aboutImages ul{
+
+	display: table-row;
+	height: 425px;
+}
+.aboutImages li{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 10px;
+	list-style: none; 
+}
+.aboutImages img{
+	
+	width: 300px;
+	height: 350px;
+}
+.projects{
+	margin-top: 100px;
+	position: relative;
+}
+.projectHeader{
+
+	width:200px;
+	height: auto;
+	background-color: black;
+	position: relative;
+	margin: 0 auto;
+	border-radius: 5px;
+	
+}
+
+.projectHeader h2{
+	font-size: 50px;
+	color:white;
+
+}
+
 
