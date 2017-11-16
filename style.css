@@ -170,21 +170,24 @@ nav{
 	width: 800px;
 	height: 200px;
 	display: inline-block;
-
-
 	background-color: black;
 	border-radius: 25px;
-	top: 50%;
 
 	position: relative;
-  	top: 50%;
-  	transform: translateY(-100%);
+	margin: 0 auto;
+	position: relative;
+  	
 
 
 	
 }
+.fabFlixBox{
+	top: 50%;
+  	transform: translateY(-100%);
+
+}
 .projectText{
-	
+	color: white;
 	text-align: center;
 }
 
@@ -207,3 +210,34 @@ nav{
 	height: 425px;
 }
 
+.upLiftPhotos{
+
+	display: inline-block;
+}
+.upLiftPhotos ul{
+	width: 650px;
+	height: 500px;
+	text-align: center;
+	height: auto;
+	list-style: none;
+	text-align: left;
+}
+.upLiftPhotos ul li{
+	margin: 0 auto;
+	text-align: center;
+	display: inline-block;
+}
+.upLiftPhotos ul li img{
+	margin: 0 auto;
+	text-align: center;
+
+	width: 300px;
+	height: 500px;
+}
+
+.upLiftBox{
+
+	display: inline-block;
+	
+
+}
