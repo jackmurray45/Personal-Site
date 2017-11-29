@@ -205,7 +205,7 @@ nav{
 	list-style: none; 
 }
 .fabFlixPhotos img{
-	
+	box-shadow: 15px 15px 7px black;
 	width: 600px;
 	height: 425px;
 }
@@ -228,6 +228,7 @@ nav{
 	display: inline-block;
 }
 .upLiftPhotos ul li img{
+
 	margin: 0 auto;
 	text-align: center;
 
@@ -243,6 +244,7 @@ nav{
 }
 
 .desktop{
+	box-shadow: 15px 15px 7px black;
 	width: 800px;
 	height: 500px;
 }
@@ -266,6 +268,7 @@ nav{
 }
 
 .tablet{
+	
 	width: 450px;
 	height: 600px;
 }
@@ -287,7 +290,7 @@ nav{
 	position: relative;
 }
 .leadership li {
-
+	border-radius: 25px;
 	position: relative;
 	text-align: center;
 	color: white;
@@ -298,9 +301,7 @@ nav{
 	min-height: 350px;
 	vertical-align: middle;
 	
-	
-	
-	
+
 }
 
 .leadership h4 {
@@ -308,12 +309,68 @@ nav{
 }
 
 .hack{
+	margin-right: 20px;
 	
 }
 .maiss{
+	margin-left: 20px;
 	
 }
 .hack img{
 	width: 250px;
 	height: 250px;
+}
+
+
+.contact{
+	color: white;
+	width: 100%;
+	background-color: #282828;
+	height: 50%;
+}
+.t{
+	
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.t h3{
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	text-align: right;
+}
+.list{
+	text-align: left;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.list ul{
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+	list-style: none;
+}
+.list img{
+	opacity: 0.2;
+	width: 100px;
+	height: 100px;
+	transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+
+.list img:hover{
+	opacity: 1;
+	transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+
+.list ul li:not(:last-child){
+	margin-bottom: 2.5%;
 }
