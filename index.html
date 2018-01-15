@@ -7,6 +7,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="style.css"/>
+      <script src = "js/main.js"></script>
 
 </head>
 
@@ -14,7 +15,7 @@
 	
 
 	<div class = "first">
-		<img src = "jack.jpg">
+		<img src = "photos/jack.jpg">
 	</div>
 
 
@@ -34,16 +35,16 @@
 			<!-- Menu Items -->
 			<div class = "collapse navbar-collapse" id="mainNavBar">
 				<ul class="nav navbar-nav navbar-items">
-					<li ><div><a href="">About</a></div></li>
-					<li ><div><a href="">Projects & Leadership</a></div></li>
-					<li ><div><a href="">Contact</a></div></li>
+					<li ><div><a href="#about" class = "scroll">About</a></div></li>
+					<li ><div><a href="#projects" class = "scroll">Projects & Leadership</a></div></li>
+					<li ><div><a href="#contact" class = "scroll">Contact</a></div></li>
             		<li><div><a href="">Resume</a></div></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
-	<div class = 'about'>
+	<div class = 'about' id ="about">
 		<div class = "aboutText">
 			<h2> About Me</h2>
 			<p> Hello my name is Jack. I am currently a study computer science at University of California, Irvine. Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 	Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 	Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 	Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
@@ -57,13 +58,13 @@
 
 		<div class = 'aboutImages'>
 			<ul>
-				<li><img src = 'about1.jpg'></li>
-				<li><img src="about2.jpg"></li>
+				<li><img src = 'photos/about/about1.jpg'></li>
+				<li><img src="photos/about/about2.jpg"></li>
 			</ul>
 		</div>
 	</div>
 
-	<div class = "projects">
+	<div class = "projects" id ="projects">
 		<div class="projectHeader">
 			<h2>Projects</h2>
 		</div>
@@ -75,8 +76,8 @@
 				</div>
 				<div class = "fabFlixPhotos projectPhotos">
 					<ul>
-						<li><img src = "fabflix1.jpg"></li>
-						<li><img src = "fabflix2.jpg"></li>
+						<li><img src = "photos/projects/fabflix1.jpg"></li>
+						<li><img src = "photos/projects/fabflix2.jpg"></li>
 					</ul>
 				</div>
 			</div>
@@ -84,8 +85,8 @@
 			<div class = "UpLift project">
 				<div class = "upLiftPhotos projectPhotos">
 					<ul>
-						<li><img src = "uplift1-crop.png"></li>
-						<li><img src = "uplift2-crop.png"></li>
+						<li><img src = "photos/projects/uplift1-crop.png"></li>
+						<li><img src = "photos/projects/uplift2-crop.png"></li>
 					</ul>
 				</div>
 				<div class = "projectBox upLiftBox">
@@ -102,8 +103,8 @@
 				</div>
 				<div class = "simpleCookingPhotos projectPhotos">
 					<ul>
-						<li><img src = "simplecooking1.jpg" class="desktop"></li>
-						<li><img src = "simplecookingmobile1.png" class="mobile"><img src = "simplecookingipad.png" class="tablet"></li>
+						<li><img src = "photos/projects/simplecooking1.jpg" class="desktop"></li>
+						<li><img src = "photos/projects/simplecookingmobile1.png" class="mobile"><img src = "photos/projects/simplecookingipad.png" class="tablet"></li>
 					</ul>
 				</div>
 			</div>
@@ -115,29 +116,28 @@
 		<ul>
 			<li class = "hack">
 				<h4>Hack</h4>
-				<img src = "hack.jpg">
+				<img src = "photos/leadership/hack.jpg" alt = "Hack">
 				<p>blah blah blah blah blah blah blah</p>
-
 			</li>
 
 			<li class = "maiss">
 				<h4>MAISS Mentor</h4>
-				<img src = "maiss.png">
+				<img src = "photos/leadership/maiss.png" alt ="MAISS">
 				<p>blah blah blah blah blah blah blah</p>
 
 			</li>
 		</ul>
 	</div>
 
-	<div class = "contact">
+	<div class = "contact" id ="contact">
 		<div class ='t'>
 			<h3>Connect with me:</h3>
 		</div>
 		<div class = "list">
 			<ul>
-				<li><a href = "https://github.com/jackmurray45" target="_blank"><img src = github.png   alt = 'github'></a></li>
-				<li><a href = "https://www.linkedin.com/in/jackfmurray" target="_blank"><img src = linkedin.png  alt = 'linkedin'></a></li>
-				<li><a href = "mailto:jfmurray@uci.edu"><img src = email.png  alt = 'email'></a></li>
+				<li><a href = "https://github.com/jackmurray45" target="_blank"><img src = photos/contact/github.png   alt = 'github'></a></li>
+				<li><a href = "https://www.linkedin.com/in/jackfmurray" target="_blank"><img src = photos/contact/linkedin.png  alt = 'linkedin'></a></li>
+				<li><a href = "mailto:jfmurray@uci.edu"><img src = photos/contact/email.png  alt = 'email'></a></li>
 			</ul>
 		</div>
 
