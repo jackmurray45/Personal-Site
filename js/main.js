@@ -58,8 +58,28 @@ $(function(){
         }
 
         if ($(this).scrollTop() > 5700 && $(".leadership").css('visibility') == 'hidden') {
+          $(".leaderHeader").css('visibility','visible').hide();
+          $(".leadershipHeader").css('visibility','visible').fadeIn('slow');  
         	$(".leadership").css('visibility','visible').hide();
         	$(".leadership").css('visibility','visible').fadeIn('slow');    
         }    
     });
 });
+
+
+
+function fadeInAndTime(className, timeFrame){
+  $(className).css('visibility','visible').hide();
+  $(className).fadeIn(timeFrame);
+}
+
+$(function(){
+  $(document).ready(function(){
+
+    fadeInAndTime(".first", 2250);
+    fadeInAndTime(".navbar", 2250);
+    fadeInAndTime(".boldWords", 2250);
+    fadeInAndTime(".bold1", 2250);
+    setTimeout(function(){fadeInAndTime(".bold2", 2250);},2000);
+    setTimeout(function(){fadeInAndTime(".bold3", 2250);},4000);
+  })});

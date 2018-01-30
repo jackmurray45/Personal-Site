@@ -14,10 +14,10 @@ html {
 }
 
 .first{	
-
+	visibility: hidden;
 	margin: 0 auto;
-	padding-top: 200px;
-	margin-bottom: 275px;
+	padding-top: 100px;
+	
 }
 .first img{
 	border-radius: 50%;
@@ -26,7 +26,29 @@ html {
 
 }
 
+
+.boldWords{
+	
+	
+	margin-top: 150px;
+	margin-bottom: 150px;
+	height: auto;
+}
+
+
+
+.boldWords div{
+	visibility: hidden;
+	display: inline-block;
+	color: white;
+	font-size: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	
+}
 .navbar{
+	visibility: hidden;
 	margin-top: 30px;
 	width: 100%;
 	background: none !important;
@@ -57,7 +79,7 @@ html {
 }
 .nav li {
 	vertical-align: middle;
-	width: 25%;
+	width: 20%;
 
 	
 	
@@ -84,7 +106,7 @@ nav{
 }
 
 .about{
-	padding-top: 250px;
+	margin-top: 500px;
 	visibility: hidden;
 	margin: 0 auto;
 	position: relative;
@@ -146,7 +168,7 @@ nav{
 	margin-top: 500px;
 	
 }
-.projectHeader{
+.projectHeader, .leadershipHeader{
 	visibility: hidden;
 	width:200px;
 	height: auto;
@@ -157,7 +179,12 @@ nav{
 	
 }
 
-.projectHeader h2{
+.leadershipHeader{
+	width: 275px !important; 
+
+}
+
+.projectHeader h2, .leadershipHeader h2{
 	font-size: 50px;
 	color:white;
 
@@ -337,34 +364,45 @@ nav{
 	height: 50%;
 }
 .t{
+	text-align: center;
 	
-	width: 50%;
-	height: 100%;
-	float: left;
 }
 
-.t h3{
+.t h4{
+	font-size: 50px;
 	position: relative;
-  	top: 50%;
-  	transform: translateY(-50%);
-  	text-align: right;
+  	
+  	text-align: center;
 }
 .list{
-	text-align: left;
-	width: 50%;
-	height: 100%;
-	float: left;
+
+	text-align: center;
+	width: 100%;
+	height: 75%;
+	
+  	
+	
 }
 .list ul{
-	position: relative;
-  	top: 50%;
+	top: 50%;
   	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	position: relative;
 	list-style: none;
+	
+}
+
+.list ul li{
+
+  	padding: 5%;
+	text-align: center;
+	display: inline-flex;
 }
 .list img{
 	opacity: 0.2;
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	transition: opacity .5s ease-out;
     -moz-transition: opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
