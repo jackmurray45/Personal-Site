@@ -70,7 +70,7 @@ html {
 	text-align: center;
 	padding: 0px;
 	overflow: hidden;
-	margin-bottom: 500px;
+	margin-bottom: 250px;
 
 	
 
@@ -106,7 +106,8 @@ nav{
 }
 
 .about{
-	margin-top: 500px;
+	margin-top: 125px;
+	padding-top: 250px;
 	visibility: hidden;
 	margin: 0 auto;
 	position: relative;
@@ -197,6 +198,7 @@ nav{
 	color: white;
 }
 .projects h3{
+	color: white;
 	font-size: 30px;
 }
 
@@ -204,7 +206,7 @@ nav{
 
 
 .projectBox{
-	width: 800px;
+	width: 40%;
 	height: 200px;
 	display: inline-block;
 	background-color: black;
@@ -219,6 +221,7 @@ nav{
 	
 }
 .fabFlixBox{
+	position: relative;
 	top: 50%;
   	transform: translateY(-100%);
 
@@ -274,7 +277,6 @@ nav{
 }
 
 .upLiftBox{
-
 	display: inline-block;
 	
 
@@ -317,10 +319,16 @@ nav{
 	padding-bottom: 500px;
 }
 
+.simpleCooking{
+	padding-bottom: 250px !important;
+}
+
 .leadership {
 	visibility: hidden;
 	width: 100%;
-	height: 800px;
+	margin-bottom: 300px;
+	padding-top: 250px;
+	
 }
 
 .leadership ul{
@@ -361,9 +369,10 @@ nav{
 	color: white;
 	width: 100%;
 	background-color: #282828;
-	height: 50%;
+	height: 700px;
 }
 .t{
+	padding-top: 100px;
 	text-align: center;
 	
 }
@@ -371,21 +380,22 @@ nav{
 .t h4{
 	font-size: 50px;
 	position: relative;
-  	
   	text-align: center;
 }
 .list{
-
+	position: relative;
 	text-align: center;
 	width: 100%;
-	height: 75%;
+ 	
 	
   	
 	
 }
 .list ul{
-	top: 50%;
-  	transform: translateY(-50%);
+
+	background-color: #282828;
+	/*top: 50%;
+  	transform: translateY(-50%);*/
 	width: 100%;
 	text-align: center;
 	position: relative;
