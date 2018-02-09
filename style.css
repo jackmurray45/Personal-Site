@@ -126,7 +126,7 @@ nav{
 	width: 40%;
 	
 	height: auto;
-	min-height: 425px;
+	
 	vertical-align: top;
 	
 }
@@ -143,18 +143,18 @@ nav{
 }
 
 .aboutImages{
-	display: inline-block;
-	margin-left: 25px;
+	display: inline-flex;
+	/*margin-left: 25px;*/
 	
 	
 }
 .aboutImages ul{
 
-	display: table-row;
-	height: 425px;
+	/*display: table-row;*/
+	height: auto;
 }
 .aboutImages li{
-	display: table-cell;
+	display: inline-flex;
 	vertical-align: middle;
 	padding: 10px;
 	list-style: none; 
@@ -207,7 +207,7 @@ nav{
 
 .projectBox{
 	width: 40%;
-	height: 200px;
+	height: auto;
 	display: inline-block;
 	background-color: black;
 	border-radius: 25px;
@@ -221,11 +221,23 @@ nav{
 	
 }
 .fabFlixBox{
+
 	position: relative;
 	top: 50%;
   	transform: translateY(-100%);
 
 }
+
+.fabFlixBox ul{
+	list-style-position: inside;
+  text-align: center;
+}
+   
+}
+
+
+
+
 .projectText{
 	color: white;
 	text-align: center;
