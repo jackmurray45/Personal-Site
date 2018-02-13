@@ -79,7 +79,7 @@ function divReSize(){
       $('.fabFlixBox').css({"width":'80%', "top":"0", "transform":"translateY(0%)"});
   }
   if($(window).width() > 1224){
-      $('.fabFlixBox').css({"width":'40%', "top":"50%", "transform":"translateY(-100%)"});
+      $('.fabFlixBox').css({"width":'40%', "top":"50%", "transform":"translateY(-50%)"});
   }
 
   if($(window).width() < 1107){
@@ -92,7 +92,7 @@ function divReSize(){
   }
 
   if($(window).width() < 1424){
-      $('.simpleCookingBox').css({"width":'80%', "top":"50%", "transform":"translateY(-50%)"});
+      $('.simpleCookingBox').css({"width":'80%', "top":"50%", "transform":"translateY(0)"});
   }
   if($(window).width() > 1424){
       $('.simpleCookingBox').css({"width":'40%', "top":"50%", "transform":"translateY(-100%)"});
@@ -166,6 +166,7 @@ function divReSize(){
   if($(window).width() > 385){
     
     $('.upLiftPhotos ul li img').css({"width":"300px", "height":"500px"})
+
   }
 
   if($(window).width() < 385){

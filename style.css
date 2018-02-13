@@ -207,6 +207,7 @@ nav{
 
 
 .projectBox{
+
 	width: 40%;
 	height: auto;
 	display: inline-block;
@@ -235,6 +236,8 @@ nav{
 	margin: 3px;
 }
 .fabFlixBox{
+	top: 50%;
+  	transform: translateY(-100%);
 	vertical-align: middle;
 	position: relative;
 	
@@ -252,6 +255,7 @@ nav{
 
 
 .projectText{
+
 	color: white;
 	text-align: center;
 }
@@ -284,11 +288,12 @@ nav{
 	display: inline-block;
 }
 .upLiftPhotos ul{
-	width: auto;
+	justify-content: center;
+	width: auto !important;
 	height: auto;
 	text-align: center;
 	list-style: none;
-	text-align: left;
+	
 }
 .upLiftPhotos ul li{
 	margin: 0 auto;
