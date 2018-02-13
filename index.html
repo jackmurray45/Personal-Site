@@ -7,6 +7,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="style.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
       <script src = "js/main.js"></script>
 
 </head>
@@ -60,8 +61,8 @@
 		<div class = "aboutText">
 			<h2> About Me</h2>
 			<p> Hey there! My name is Jack and I am currently studying Computer Science at University of California, Irvine with an expected graduation date of 2018. I am pursing entry level software related jobs at the moment. Feel free to check out my resume, check out some of my links at the bottom of the page, or send me an email at <u>jfmurray@uci.edu</u>.     
-			</p>
-			<p>
+			<br>
+			<br>
 			A little bit about myself. I grew up in Manhattan Beach, CA until the first grade when I moved into a ranch with my parents in Temecula, CA (the horse is mine, but not the raptor). Being isolated out in the middle of nowhere for a large portion of my life is what lead to my passion in technology and eventually pursue a degree in computer science. Besides that, I enjoy video games, sports (Go Eagles!), and just learning something new.   
 			</p>
 
@@ -98,8 +99,8 @@
 				</div>
 				<div class = "fabFlixPhotos projectPhotos">
 					<ul>
-						<li><img src = "photos/projects/fabflix1.jpg"></li>
-						<li><img src = "photos/projects/fabflix2.jpg"></li>
+						<li><img src = "photos/projects/fabflix1.jpg" class = "ffPhoto"></li>
+						<li><img src = "photos/projects/fabflix2.jpg" class = "ffPhoto"></li>
 					</ul>
 				</div>
 			</div>
@@ -113,7 +114,10 @@
 				</div>
 				<div class = "projectBox upLiftBox">
 					<h3> UpLift </h3>
-					<p class = "projectText">blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+					<p class = "projectText">UpLift is a mobile application I worked on that is focused on parents contacting children with ASD. Parents would send affirmative messages to their children in which the child could response with an "agree" or "disagree." The responses were sent back to the parent and agreed messages were saved on the childs phone.</p>
+					<br>
+					<p class = "projectText">The app was developed using Andriod Studio and the backend utilized a MySQL database to store messages and account info 
+					</p>
 				</div>
 			</div>
 
@@ -121,12 +125,21 @@
 			<div class = "simpleCooking project">
 				<div class = "simpleCookingBox projectBox">
 					<h3> American Heart Association </h3>
-					<p class = "projectText">blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+					<p class = "projectText">Last Summer I worked at American Heart Association as a web developer intern. My main project was creating the Simple Cooking with Heart website. I made the site from scratch and worked with in team with various backgrounds. Some facts about the site include:</p>
+					<ul>
+						<li>PHP to handle file reading and automailing system (PHPMailer)</li>
+						<li>Fully responsive site that looks great on mobile devices</li>
+						<li>Utilized jQuery, Bootstrap, PhotoSwipe, and JSON files to store data</li> 
+					</ul>
+					<br>
+					<a href = "http://www.simplecookingirvine.com">Site</a> | <a href = "https://github.com/jackmurray45/SimpleCooking"> Repo </a>
+
+
 				</div>
 				<div class = "simpleCookingPhotos projectPhotos">
 					<ul>
 						<li><img src = "photos/projects/simplecooking1.jpg" class="desktop"></li>
-						<li><img src = "photos/projects/simplecookingmobile1.png" class="mobile"><img src = "photos/projects/simplecookingipad.png" class="tablet"></li>
+						<li class = "mt"><img src = "photos/projects/simplecookingmobile1.png" class="mobile"><img src = "photos/projects/simplecookingipad.png" class="tablet"></li>
 					</ul>
 				</div>
 			</div>
@@ -138,18 +151,21 @@
 		<div class="leadershipHeader">
 			<h2>Leadership</h2>
 		</div>
-		<ul>
+		<ul class = "leadershipUL">
 			<li class = "hack">
-				<h4>Hack</h4>
+				<div class = "vertmid">
+				<h4>HackUCI: Coporate Outreach</h4>
 				<img src = "photos/leadership/hack.jpg" alt = "Hack">
-				<p>blah blah blah blah blah blah blah</p>
+				<p>As a member of the Corporate Outreach commitee for HackUCI it is my responsibility to reach out to multiple companies, negotiate, and form beneficial partnerships. On top of that, I also assist in creating workshops and administering events affiliated with HackUCI. </p>
+			</div>
 			</li>
 
 			<li class = "maiss">
+				<div class = "vertmid">
 				<h4>MAISS Mentor</h4>
 				<img src = "photos/leadership/maiss.png" alt ="MAISS">
-				<p>blah blah blah blah blah blah blah</p>
-
+				<p>As a MAISS (Management and Information Student Society) mentor I give advice academic, professional, and personal advice to first, second, and third years. Being a mentor I am required to be knowledgable about topics related to management and tech as well as be able to shape my guidance that is most helpful for the mentees.</p>
+				</div>
 			</li>
 		</ul>
 	</div>
@@ -169,4 +185,5 @@
 
 
 	</div>
+	<script src = "js/main.js"></script>
 </body>

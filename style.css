@@ -139,7 +139,8 @@ nav{
 }
 
 .aboutText p{
-	padding: 25px;
+	font-size: 15px;
+	padding: 40px;
 }
 
 .aboutImages{
@@ -199,7 +200,7 @@ nav{
 }
 .projects h3{
 	color: white;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 
@@ -215,16 +216,28 @@ nav{
 	position: relative;
 	margin: 0 auto;
 	position: relative;
+	padding:20px;
   	
 
 
 	
 }
-.fabFlixBox{
 
+.projectBox p, .projectBox ul{
+	font-size: 15px;
+
+}
+
+.projectBox a{
+	font-size: 17px;
+	color: gray;
+	border-bottom: 1px dotted gray;
+	margin: 3px;
+}
+.fabFlixBox{
+	vertical-align: middle;
 	position: relative;
-	top: 50%;
-  	transform: translateY(-100%);
+	
 
 }
 
@@ -246,12 +259,16 @@ nav{
 .fabFlixPhotos{
 	list-style: none;
 	display: inline-block;
-	height: 900px;
-	width: 600px;
+	
+}
+
+.fabFlixPhotos ul{
+	padding: 0px;
 }
 
 .fabFlixPhotos li{
-
+	width: auto !important;
+	height: auto !important;
 	vertical-align: middle;
 	padding: 10px;
 	list-style: none; 
@@ -267,10 +284,9 @@ nav{
 	display: inline-block;
 }
 .upLiftPhotos ul{
-	width: 650px;
-	height: 500px;
-	text-align: center;
+	width: auto;
 	height: auto;
+	text-align: center;
 	list-style: none;
 	text-align: left;
 }
@@ -289,6 +305,8 @@ nav{
 }
 
 .upLiftBox{
+	
+	vertical-align: middle;
 	display: inline-block;
 	
 
@@ -318,6 +336,10 @@ nav{
   	transform: translateY(-100%);
 }
 
+.simpleCookingBox{
+	list-style-position: inside;
+}
+
 .tablet{
 	
 	width: 450px;
@@ -327,6 +349,7 @@ nav{
 
 
 .project{
+	color: white;
 	visibility: hidden;
 	padding-bottom: 500px;
 }
@@ -357,7 +380,7 @@ nav{
 	width: 700px;
 	background-color: black;
 	display: inline-block;
-	min-height: 350px;
+	min-height: 425px;
 	vertical-align: middle;
 	margin-right: 50px;
 	margin-left: 50px;
@@ -365,15 +388,23 @@ nav{
 	
 
 }
-
+.leadershipUL p{
+	
+  	
+	padding: 20px;
+	font-size: 15px;
+	vertical-align: bottom;
+}
 .leadership h4 {
 	font-size: 25px;
 }
 
-
+.leadership img{
+	padding: 20px;
+}
 .hack img{
-	width: 250px;
-	height: 250px;
+	width: 37.5%;
+	
 }
 
 
@@ -398,10 +429,14 @@ nav{
 	position: relative;
 	text-align: center;
 	width: 100%;
- 	
-	
+ 		
   	
 	
+}
+
+.maiss img{
+
+	width:66.7%;
 }
 .list ul{
 

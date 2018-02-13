@@ -98,10 +98,88 @@ function divReSize(){
       $('.simpleCookingBox').css({"width":'40%', "top":"50%", "transform":"translateY(-100%)"});
   }
 
+  if($(window).width() < 685){
+
+    $('.ffPhoto').css({"width":"95%", "height":(($(window).width()*.95)*.708)})
+  }
+  if($(window).width() > 685){
+    $('.ffPhoto').css({"width":"625px", "height":"400px"});
+  }
+
+  if($(window).width() < 895){
+    
+    $('.desktop').css({"width":"95%", "height":(($(window).width()*.95)*.625)})
+  }
+
+  if($(window).width() > 895){
+    
+    $('.desktop').css({"width":"800px", "height":"500px"})
+  }
+
+  if($(window).width() < 855){
+    
+    $('.leadershipUL li').css({"width":"82.4%", "margin-right":"0px", "margin-left":"0px"})
+  }
+
+  if($(window).width() > 855){
+    
+    $('.leadershipUL li').css({"width":"700px","margin-right":"25px", "margin-left":"25px"})
+  }
+
+  if($(window).width() < 615){
+    $('.mobile').css({"width":"50.0%", "height":(($(window).width()*.5)*1.667)})
+    $('.tablet').css({"width":"80.0%", "height":(($(window).width()*.8)*1.3333)})
+  }
+
+  if($(window).width() > 615){
+    $('.mobile').css({"width":"300px", "height":"500px"})
+    $('.tablet').css({"width":"450px", "height":"600px"})
+  }
+
+  if($(window).width() < 415){
+    
+    $('.aboutImages img').css({"width":"90.0%","height":(($(window).width()*.9)*1.1667) })
+  }
+
+  if($(window).width() > 415){
+    
+    $('.aboutImages img').css({"width":"300px", "height":"350px"})
+  }
+
+  if($(window).width() < 415){
+    
+    $('.first img').css({"width":"90.0%","height":(($(window).width()*.9)) })
+  }
+
+  if($(window).width() > 415){
+    
+    $('.first img').css({"width":"400px", "height":"400px"})
+  }
+
+
+  if($(window).width() < 385){
+    
+    $('.upLiftPhotos ul li img').css({"width":"78.0%","height":((($(window).width()*.78)*1.667)),"margin-right": "0px", "margin-left": "0px" })
+
+  }
+
+  if($(window).width() > 385){
+    
+    $('.upLiftPhotos ul li img').css({"width":"300px", "height":"500px"})
+  }
+
+  if($(window).width() < 385){
+    
+    $('.upLiftPhotos ul li img').css({"width":"78.0%","height":((($(window).width()*.78)*1.667)) })
+  }
+
+  
+
+  
+
 }
 
-$(document).ready(divReSize);
-$(window).resize(divReSize);
+
 
 
 
@@ -124,3 +202,6 @@ $(function(){
     setTimeout(function(){fadeInAndTime(".bold2", 2250);},4000);
     setTimeout(function(){fadeInAndTime(".bold3", 2250);},5750);
   })});
+
+$(document).ready(divReSize);
+$(window).resize(divReSize);
