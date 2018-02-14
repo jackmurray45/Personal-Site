@@ -58,9 +58,12 @@ html {
 	
 
 }
+
+
+
 .navbar .navbar-collapse{
 
-
+	
 	color: white !important;
 	text-align: center !important;
 }
@@ -79,6 +82,7 @@ html {
 
 }
 .nav li {
+	margin: 0 auto !important;
 	vertical-align: middle;
 	width: 20%;
 
