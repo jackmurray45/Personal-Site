@@ -83,19 +83,20 @@ function divReSize(){
   }
 
   if($(window).width() < 1107){
-      $('.upliftbox').insertBefore('.upLiftPhotos');
-      $('.upliftbox').css({"width":'80%'});
+      $('.upLiftBox').insertBefore('.upLiftPhotos');
+      $('.upLiftBox').css({"width":'80%'});
   }
   if($(window).width() > 1107){
-    $('.upliftbox').insertAfter('.upLiftPhotos');
-    $('.upliftbox').css({"width":'40%'});
+    $('.upLiftBox').insertAfter('.upLiftPhotos');
+    $('.upLiftBox').css({"width":'40%'});
   }
 
   if($(window).width() < 1424){
-      $('.simpleCookingBox').css({"width":'80%', "top":"50%", "transform":"translateY(0)"});
+      $('.simpleCookingBox').css({"width":'80%', "top":"50%", "transform":"translateY(0)", "margin-bottom":"10px", "margin-right": "0px"});
+
   }
   if($(window).width() > 1424){
-      $('.simpleCookingBox').css({"width":'40%', "top":"50%", "transform":"translateY(-100%)"});
+      $('.simpleCookingBox').css({"width":'40%', "top":"50%", "transform":"translateY(-50%)", "margin-bottom":"0px","margin-right": "15px"});
   }
 
   if($(window).width() < 685){
@@ -118,12 +119,12 @@ function divReSize(){
 
   if($(window).width() < 855){
     
-    $('.leadershipUL li').css({"width":"82.4%", "margin-right":"0px", "margin-left":"0px"})
+    $('.leadershipUL li').css({"width":"82.4%", "margin-right":"0px", "margin-left":"0px" , "min-height": "0px"})
   }
 
   if($(window).width() > 855){
     
-    $('.leadershipUL li').css({"width":"700px","margin-right":"25px", "margin-left":"25px"})
+    $('.leadershipUL li').css({"width":"700px","margin-right":"25px", "margin-left":"25px", "min-height": "425px"})
   }
 
   if($(window).width() < 615){
@@ -160,12 +161,14 @@ function divReSize(){
   if($(window).width() < 385){
     
     $('.upLiftPhotos ul li img').css({"width":"78.0%","height":((($(window).width()*.78)*1.667)),"margin-right": "0px", "margin-left": "0px" })
+    $('.upLiftPhotos ul').css({"padding-left":"0px", "padding-right":"0px"});
 
   }
 
   if($(window).width() > 385){
     
     $('.upLiftPhotos ul li img').css({"width":"300px", "height":"500px"})
+
 
   }
 

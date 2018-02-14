@@ -1,3 +1,10 @@
+
+
+
+<!DOCTYPE html>
+<html>
+
+
 <head>
 	
 
@@ -9,9 +16,10 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="style.css"/>
-      <link rel="shortcut icon" href="http://jamiesteedman.co.uk/wp-content/uploads/2017/03/J-favicon.png"/>
+      <link rel="shortcut icon" href="photos/favicon.png"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-      <script src = "js/main.js"></script>
+      
 
 </head>
 
@@ -54,7 +62,7 @@
 					<li ><div><a href="#projects" class = "scroll">Projects</a></div></li>
 					<li ><div><a href="#leadership" class = "scroll">Leadership</a></div></li>
 					<li ><div><a href="#contact" class = "scroll">Contact</a></div></li>
-            		<li><div><a href="Jack-Finn-Murray-Resume.pdf">Resume</a></div></li>
+            		<li><div><a href="Jack-Finn-Murray-Resume.pdf" target = '_blank'>Resume</a></div></li>
 				</ul>
 			</div>
 		</div>
@@ -66,7 +74,7 @@
 			<p> Hey there! My name is Jack and I am currently studying Computer Science at University of California, Irvine with an expected graduation date of 2018. I am pursing entry level software related jobs at the moment. Feel free to check out my resume, check out some of my links at the bottom of the page, or send me an email at <u>jfmurray@uci.edu</u>.     
 			<br>
 			<br>
-			A little bit about myself. I grew up in Manhattan Beach, CA until the first grade when I moved into a ranch with my parents in Temecula, CA (the horse is mine, but not the raptor). Being isolated out in the middle of nowhere for a large portion of my life is what lead to my passion in technology and eventually pursue a degree in computer science. Besides that, I enjoy video games, sports (Go Eagles!), and just learning something new.   
+			A little bit about myself. I grew up in Manhattan Beach, CA until the first grade when I moved into a ranch with my parents in Temecula, CA (the horse is mine, but not the raptor unfortunately). Being isolated out in the middle of nowhere for a large portion of my life is what lead to my passion in technology and eventually pursue a degree in computer science. Besides that, I enjoy video games, sports (Go Eagles!), and just learning something new.   
 			</p>
 
 			
@@ -89,7 +97,7 @@
 				<div class = "projectBox fabFlixBox">
 					<h3> FabFlix </h3>
 					<p class = "projectText">
-						Fabflix is a dynamic web application I worked on last year that stores dvds with their info such as: release dates, stars, and genres, along with an personal accounts used to make purchases. I ultilized a MySQL database to store all of the dvd info along with relations between dvds, genres, and movie stars. Some other features include:
+						Fabflix is a dynamic web application I worked on last year that stores DVDs with their info such as: release dates, stars, and genres, along with a personal account used to make purchases. I utilized a MySQL database to store all the DVD info along with relations between DVDs, genres, and movie stars. Some other features include:
 						
 						 <ul>
 						 	<li>Advanced searching using diffcult search queries. </li>
@@ -97,15 +105,19 @@
 						 	<li>A mobile application that connected to the web server</li>
 						 </ul>
 
-						 As for the rest of the technology I used Java servlets and jsp files to create dynamic webpages and hosted it on a Tomcat Server on an AWS EC2 instance.  
+						 As for the rest of the technology I used Java servlets and JSP files to create dynamic webpages and hosted it on a Tomcat Server on an AWS EC2 instance.  
 					</p>
+					<br>
+					<a href="https://drive.google.com/drive/folders/0B4Azd6nUQ4wgakdGdXQtTUx4U3M" target="_blank">Source Code</a>
 				</div>
 				<div class = "fabFlixPhotos projectPhotos">
 					<ul>
-						<li><img src = "photos/projects/fabflix1.jpg" class = "ffPhoto"></li>
-						<li><img src = "photos/projects/fabflix2.jpg" class = "ffPhoto"></li>
+						<li><img src = "photos/projects/fabflix1.JPG" class = "ffPhoto"></li>
+						<li><img src = "photos/projects/fabflix2.JPG" class = "ffPhoto"></li>
 					</ul>
 				</div>
+
+
 			</div>
 
 			<div class = "UpLift project">
@@ -117,9 +129,9 @@
 				</div>
 				<div class = "projectBox upLiftBox">
 					<h3> UpLift </h3>
-					<p class = "projectText">UpLift is a mobile application I worked on that is focused on parents contacting children with ASD. Parents would send affirmative messages to their children in which the child could response with an "agree" or "disagree." The responses were sent back to the parent and agreed messages were saved on the childs phone.</p>
+					<p class = "projectText">UpLift is a mobile application I worked on that is focused on parents contacting children with ASD. Parents would send affirmative messages to their children in which the child could response with an "agree" or "disagree." The responses were sent back to the parent and agreed messages were saved on the child’s phone.</p>
 					<br>
-					<p class = "projectText">The app was developed using Andriod Studio and the backend utilized a MySQL database to store messages and account info 
+					<p class = "projectText">The app was developed using Android Studio and the backend utilized a MySQL database to store messages and account info. 
 					</p>
 				</div>
 			</div>
@@ -130,9 +142,10 @@
 					<h3> American Heart Association </h3>
 					<p class = "projectText">Last Summer I worked at American Heart Association as a web developer intern. My main project was creating the Simple Cooking with Heart website. I made the site from scratch and worked with in team with various backgrounds. Some facts about the site include:</p>
 					<ul>
-						<li>PHP to handle file reading and automailing system (PHPMailer)</li>
+						<li>PHP to handle file reading and auto mailing system (PHPMailer)</li>
 						<li>Fully responsive site that looks great on mobile devices</li>
-						<li>Utilized jQuery, Bootstrap, PhotoSwipe, and JSON files to store data</li> 
+						<li>Utilized jQuery, Bootstrap, PhotoSwipe, and JSON files to store data</li>
+						<li>Hosted on AWS EC2 with LAMP</li>
 					</ul>
 					<br>
 					<a href = "http://www.simplecookingirvine.com">Site</a> | <a href = "https://github.com/jackmurray45/SimpleCooking"> Repo </a>
@@ -141,7 +154,7 @@
 				</div>
 				<div class = "simpleCookingPhotos projectPhotos">
 					<ul>
-						<li><img src = "photos/projects/simplecooking1.jpg" class="desktop"></li>
+						<li><img src = "photos/projects/simplecooking1.JPG" class="desktop"></li>
 						<li class = "mt"><img src = "photos/projects/simplecookingmobile1.png" class="mobile"><img src = "photos/projects/simplecookingipad.png" class="tablet"></li>
 					</ul>
 				</div>
@@ -158,16 +171,16 @@
 			<li class = "hack">
 				<div class = "vertmid">
 				<h4>HackUCI: Coporate Outreach</h4>
-				<img src = "photos/leadership/hack.jpg" alt = "Hack">
-				<p>As a member of the Corporate Outreach commitee for HackUCI it is my responsibility to reach out to multiple companies, negotiate, and form beneficial partnerships. On top of that, I also assist in creating workshops and administering events affiliated with HackUCI. </p>
+				<a href = "https://www.hackuci.com/" target="_blank"><img src = "photos/leadership/hack.jpg" alt = "Hack"></a>
+				<p>As a member of the Corporate Outreach committee for HackUCI it is my responsibility to reach out to multiple companies, negotiate, and form beneficial partnerships. On top of that, I also assist in creating workshops and administering events affiliated with HackUCI. </p>
 			</div>
 			</li>
 
 			<li class = "maiss">
 				<div class = "vertmid">
 				<h4>MAISS Mentor</h4>
-				<img src = "photos/leadership/maiss.png" alt ="MAISS">
-				<p>As a MAISS (Management and Information Student Society) mentor I give advice academic, professional, and personal advice to first, second, and third years. Being a mentor I am required to be knowledgable about topics related to management and tech as well as be able to shape my guidance that is most helpful for the mentees.</p>
+				<a href = "http://www.maissuci.com/" target="_blank"><img src = "photos/leadership/maiss.png" alt ="MAISS"></a>
+				<p>As a MAISS (Management and Information Student Society) mentor I give advice academic, professional, and personal advice to first, second, and third years. Being a mentor, I am required to be knowledgeable about topics related to management and tech as well as be able to shape my guidance that is most helpful for the mentees..</p>
 				</div>
 			</li>
 		</ul>
@@ -190,3 +203,5 @@
 	</div>
 	
 </body>
+<script src = "js/main.js"></script>
+</html>
